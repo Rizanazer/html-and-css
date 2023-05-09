@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url("medium-shot-man-wearing-vr-glasses.jpg");
+    /* background-image: url("medium-shot-man-wearing-vr-glasses.jpg"); */
     
 
   }
@@ -28,7 +28,9 @@ body {
     display: flex;
     flex-direction: row;
   }
-  
+  .button:hover{
+   background-color: #275d28;
+  }
   .button {
     background-color: #4CAF50;
     border: none;
@@ -174,6 +176,9 @@ section#services {
   padding: .5rem;
   
 }
+/* .flex{
+  color: ;
+} */
 
 .accordion-link ul{
   display:flex;
@@ -333,6 +338,16 @@ ul li a{
     overflow: hidden;
     will-change: transform;
   }
+  #dsn-scrollbar{
+    background-image: url("4127298.jpg") ;
+    background-repeat: no-repeat;
+
+    
+  }
+  .container5{
+    background-image: url("4127298\ -\ Copy.jpg");
+    
+  }
   
   .dsn-nav-bar .icon-m .menu-icon-close {
     opacity: 0;
@@ -344,6 +359,9 @@ ul li a{
     -webkit-transform-origin: top left;
     -ms-transform-origin: top left;
     transform-origin: top left;
+  }
+  .teamz{
+    color: white;
   }
   
   .dsn-nav-bar .dsn-wrapper {
@@ -3175,6 +3193,17 @@ ul li a{
 }
 .text-center {
   text-align: center;
+}
+.para_head{
+  color: #eee;
+  font-size: 12px;
+}
+#gallery{
+  padding-top: 10%;
+  padding-bottom: 20px;
+}
+#service-cap{
+  padding-bottom:50px; ;
 }
 .mb-10 {
   margin-bottom: 10px;
